@@ -4,11 +4,24 @@
   box-sizing: border-box;
 }
 
+h1 {
+  font-family: "Aladin";
+}
+
+h2 {
+  font-size: 30px;
+  font-family: "Monoton";
+}
+
+li {
+  font-family: "Koulen";
+}
+
 body {
   width: 100vw;
   height: 150vh;
 
-  background: url("./images/prism.png") no-repeat top left/160vh;
+  background: url("./images/prism.png") no-repeat top left/100vw 160vh;
 }
 
 #container {
@@ -30,10 +43,22 @@ section#entrees {
   width: 100%;
 }
 
+section ul li {
+  font-size: 26px;
+}
+
 section#favs-and-apps {
   width: 60%;
 }
 
+section ul li {
+  font-size: 26px;
+}
+
 section#drinks {
   width: 40%;
+}
+
+section ul li {
+  font-size: 26px;
 }
