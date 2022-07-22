@@ -6,6 +6,36 @@
 
 h1 {
   font-family: "Aladin";
+  text-align: center;
+}
+
+h1 span#the {
+  position: relative;
+  font-size: 64px;
+}
+
+h1 span#the::before {
+  content: "";
+  position: absolute;
+  width: 90px;
+  height: 5px;
+  right: 120px;
+  top: 32px;
+  background: white;
+}
+
+h1 span#the::after {
+  content: "";
+  position: absolute;
+  width: 90px;
+  height: 5px;
+  left: 120px;
+  top: 32px;
+  background: white;
+}
+
+h1 span#dinner {
+  font-size: 96px;
 }
 
 h2 {
@@ -15,6 +45,7 @@ h2 {
 
 li {
   font-family: "Koulen";
+  list-style: none;
 }
 
 body {
@@ -25,11 +56,22 @@ body {
 }
 
 #container {
+  display: flex;
+  justify-content: center;
   height: 100%;
 }
 
 #menu {
+  width: 1000px;
+  max-width: 1000px;
   height: 100%;
+  border: white solid 2px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  height: 240px;
 }
 
 main {
