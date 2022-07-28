@@ -70,8 +70,10 @@ header {
   display: flex;
   justify-content: center;
   height: 240px;
-  background: url("images/chicken-dish.png") top -25px left/auto 120px no-repeat,
-    url("./images/chicken-dish.png") top -25px right/auto 120px no-repeat;
+  background: url("images/chicken-dish.png") top -30px left -30px / auto 150px
+      no-repeat,
+    url("./images/chicken-dish.png") top -30px right -30px / auto 150px
+      no-repeat;
 }
 
 main {
