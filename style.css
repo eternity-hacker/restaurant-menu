@@ -107,14 +107,34 @@ header {
 main {
   display: flex;
   flex-flow: row wrap;
-
   height: 100%;
+  margin: 0 45px 0 45px;
 }
 
 section#entrees {
   width: 100%;
 
-  border: 5px white solid;
+  border: 3px white solid;
+}
+
+section#entrees ul {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+section#entrees ul li {
+  display: inherit;
+  flex-basis: 50%;
+
+  justify-content: space-between;
+}
+
+section#entrees ul li span:first-child {
+  margin-left: 40px;
+}
+
+section#entrees ul li span:last-child {
+  margin-right: 100px;
 }
 
 section ul li {
