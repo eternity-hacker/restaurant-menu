@@ -115,6 +115,7 @@ section#entrees {
   width: 100%;
 
   border: 3px white solid;
+  padding: 20px 0 20px 0;
 }
 
 section#entrees ul {
@@ -134,7 +135,7 @@ section#entrees ul li span:first-child {
 }
 
 section#entrees ul li span:last-child {
-  margin-right: 100px;
+  margin-right: 40px;
 }
 
 section ul li {
