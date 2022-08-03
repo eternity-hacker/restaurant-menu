@@ -116,6 +116,11 @@ section#entrees {
 
   border: 3px white solid;
   padding: 20px 0 20px 0;
+
+  background: no-repeat center top 35%/3% url(./images/chile-pepper.png),
+    no-repeat center bottom 35%/7%
+      url(./images/crab-hd-png-crab-cut-out-960.png),
+    no-repeat bottom right 25%/10% url(./images/cucumber.png);
 }
 
 section#entrees ul {
