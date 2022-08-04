@@ -112,6 +112,7 @@ main {
 }
 
 section#entrees {
+  position: relative;
   width: 100%;
 
   border: 3px white solid;
@@ -133,6 +134,24 @@ section#entrees ul li {
   flex-basis: 50%;
 
   justify-content: space-between;
+}
+
+section#entrees::before {
+  content: "start";
+  position: absolute;
+
+  top: -10px;
+}
+
+section#entrees::after {
+  content: "";
+  position: absolute;
+  bottom: -25px;
+  right: -25px;
+  width: 100px;
+  height: 100px;
+
+  background: no-repeat right bottom/100% url(./images/mint-leaves.png);
 }
 
 section#entrees ul li span:first-child {
