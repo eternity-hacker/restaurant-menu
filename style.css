@@ -137,17 +137,21 @@ section#entrees ul li {
 }
 
 section#entrees::before {
-  content: "start";
+  content: "";
   position: absolute;
+  top: -35px;
+  left: -35px;
+  width: 100px;
+  height: 100px;
 
-  top: -10px;
+  background: no-repeat left top/100% url(./images/mint-leaves.png);
 }
 
 section#entrees::after {
   content: "";
   position: absolute;
-  bottom: -25px;
-  right: -25px;
+  bottom: -35px;
+  right: -35px;
   width: 100px;
   height: 100px;
 
