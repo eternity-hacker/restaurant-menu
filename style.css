@@ -119,10 +119,16 @@ section#entrees {
   border: 3px white solid;
   padding: 20px 0 20px 0;
 
-  background: no-repeat center top 22%/2.5% url(./images/chile-pepper.png),
+  background: no-repeat center top 23%/2.5% url(./images/chile-pepper.png),
     no-repeat center bottom 60%/7%
       url(./images/crab-hd-png-crab-cut-out-960.png),
     no-repeat bottom 20px right 25%/15% url(./images/cucumber.png);
+}
+
+section#entrees h2 span {
+  padding: 0 40px 0 40px;
+  background: no-repeat url("./images/green-paint-stroke.png") top 0 left 0 /
+    cover;
 }
 
 section#entrees ul {
